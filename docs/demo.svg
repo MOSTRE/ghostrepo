@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600">
+  <rect width="760" height="600" rx="12" fill="#0b0e14"/>
+  <rect x="1" y="1" width="758" height="598" rx="11" fill="none" stroke="#232c3d" stroke-width="2"/>
+  <circle cx="28" cy="26" r="6" fill="#ff5f57"/>
+  <circle cx="48" cy="26" r="6" fill="#febc2e"/>
+  <circle cx="68" cy="26" r="6" fill="#28c840"/>
+  <text x="92" y="31" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#525b73">ghostrepo — Example output (octocat/Hello-World)</text>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="14">
+    <text x="24" y="66" fill="#8b94a7">$ ghostrepo scan octocat/Hello-World</text>
+    <text x="24" y="96" fill="#6ee7b7" font-weight="bold">GhostRepo</text>
+    <text x="24" y="116" fill="#33415e">────────────────────────────────────────</text>
+    <text x="24" y="142" fill="#525b73">Repository</text>
+    <text x="24" y="162" fill="#e6e9f0">  octocat/Hello-World</text>
+    <text x="24" y="188" fill="#525b73">Health</text>
+    <text x="24" y="208" fill="#f0b429" font-weight="bold">  39 / 100</text>
+    <text x="24" y="234" fill="#525b73">Last commit</text>
+    <text x="24" y="254" fill="#e6e9f0">  2.1 years ago</text>
+    <text x="24" y="284" fill="#e6e9f0">  Open issues      7258</text>
+    <text x="24" y="304" fill="#e6e9f0">  Pull requests    30</text>
+    <text x="24" y="324" fill="#e6e9f0">  CI               ● passing</text>
+    <text x="24" y="344" fill="#e6e9f0">  Documentation    ● needs attention</text>
+    <text x="24" y="364" fill="#e6e9f0">  Maintenance      POSSIBLY ABANDONED</text>
+    <text x="24" y="390" fill="#33415e">────────────────────────────────────────</text>
+    <text x="24" y="416" fill="#e6e9f0" font-weight="bold">Suggested revival plan</text>
+    <text x="24" y="442" fill="#6ee7b7">  1.</text><text x="56" y="442" fill="#e6e9f0"> Add a smoke test [P1 · Small]</text>
+    <text x="24" y="462" fill="#6ee7b7">  2.</text><text x="56" y="462" fill="#e6e9f0"> Refresh installation instructions [P2 · Small]</text>
+    <text x="24" y="482" fill="#6ee7b7">  3.</text><text x="56" y="482" fill="#e6e9f0"> Add a license [P2 · Small]</text>
+    <text x="24" y="502" fill="#6ee7b7">  4.</text><text x="56" y="502" fill="#e6e9f0"> Triage the issue and PR backlog [P2 · Medium]</text>
+    <text x="24" y="522" fill="#6ee7b7">  5.</text><text x="56" y="522" fill="#e6e9f0"> Enable automated dependency updates [P3 · Small]</text>
+    <text x="24" y="552" fill="#525b73">Estimated modernization effort</text>
+    <text x="24" y="572" fill="#e6e9f0">  High</text>
+  </g>
+</svg>
