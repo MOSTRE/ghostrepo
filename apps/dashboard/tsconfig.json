@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "incremental": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    // Resolve workspace packages to their compiled dist (not src):
+    // Next/webpack cannot resolve the `.js`-suffixed ESM imports in src.
+    "paths": {},
+    "plugins": [{ "name": "next" }],
+    "allowJs": true
+  },
+  "include": [
+    "app/**/*.tsx",
+    "app/**/*.ts",
+    "components/**/*.tsx",
+    "lib/**/*.ts",
+    "next-env.d.ts",
+    "tailwind.config.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
