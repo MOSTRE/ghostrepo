@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.next/
+out/
+*.log
+.DS_Store
+.env
+.env.local
+coverage/
+.plan/
+ghostrepo-report.*
+report.*
+*.tsbuildinfo
+apps/dashboard/.next/
+apps/dashboard/out/

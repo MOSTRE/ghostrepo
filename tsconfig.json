@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "types": ["node"],
+    "paths": {
+      "@ghostrepo/core": ["./packages/core/src/index.ts"],
+      "@ghostrepo/github": ["./packages/github/src/index.ts"],
+      "@ghostrepo/scoring": ["./packages/scoring/src/index.ts"],
+      "@ghostrepo/dependencies": ["./packages/dependencies/src/index.ts"],
+      "@ghostrepo/reports": ["./packages/reports/src/index.ts"]
+    }
+  },
+  "include": ["cli/src/**/*.ts", "packages/*/src/**/*.ts", "tests/**/*.ts", "vitest.config.ts"]
+}
