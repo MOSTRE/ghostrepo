@@ -1,0 +1,29 @@
+{
+  "name": "healthy-tool",
+  "repo": {
+    "full_name": "acme/healthy-tool",
+    "owner": { "login": "acme" },
+    "name": "healthy-tool",
+    "description": "A well kept CLI helper",
+    "stargazers_count": 1200,
+    "forks_count": 88,
+    "subscribers_count": 40,
+    "open_issues_count": 6,
+    "default_branch": "main",
+    "created_at": "2020-01-10T00:00:00Z",
+    "updated_at": "2026-09-20T00:00:00Z",
+    "pushed_at": "2026-09-18T00:00:00Z",
+    "archived": false,
+    "disabled": false,
+    "private": false,
+    "license": { "spdx_id": "MIT" },
+    "topics": ["cli", "typescript"],
+    "language": "TypeScript",
+    "homepage": null
+  },
+  "commits": 30,
+  "contributors": 8,
+  "releases": [{ "published_at": "2026-08-01T00:00:00Z" }],
+  "branches": 3,
+  "openPrs": 1
+}
